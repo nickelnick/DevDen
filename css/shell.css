@@ -1,0 +1,21 @@
+body {
+	font-family: 'Droid Sans', sans-serif;
+}
+.show-grid [class*="span"] {
+	background-color: #EEE;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	min-height: 30px;
+	line-height: 30px;
+}
+.navbar-fixed-top .brand {
+	margin-left: 20px;
+	float: right;
+	font-weight: bold;
+	color: black;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	transition: all .2s linear;
+}
